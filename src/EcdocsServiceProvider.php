@@ -18,8 +18,7 @@ class EcdocsServiceProvider extends PackageServiceProvider
         $package
             ->name('ecdocs')
             ->hasConfigFile()
-            ->hasViews()
-            ->hasMigration('create_ecdocs_table')
-            ->hasCommand(EcdocsCommand::class);
+            ->hasRoute('web')
+            ->hasViews('ecdocs');
     }
 }

@@ -5,15 +5,7 @@
 [![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/elijahcruz/ecdocs/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/elijahcruz/ecdocs/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/elijahcruz/ecdocs.svg?style=flat-square)](https://packagist.org/packages/elijahcruz/ecdocs)
 
-This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
-
-## Support us
-
-[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/ecdocs.jpg?t=1" width="419px" />](https://spatie.be/github-ad-click/ecdocs)
-
-We invest a lot of resources into creating [best in class open source packages](https://spatie.be/open-source). You can support us by [buying one of our paid products](https://spatie.be/open-source/support-us).
-
-We highly appreciate you sending us a postcard from your hometown, mentioning which of our package(s) you are using. You'll find our address on [our contact page](https://spatie.be/about-us). We publish all received postcards on [our virtual postcard wall](https://spatie.be/open-source/postcards).
+ECDocs is an API Documentation generator, based on dedoc/scramber. The only reason this package exists is so that way I can make the same package, but make sure that it's updated at a timely manner, and to make sure that I can add any extra features that I want to have in the original version.
 
 ## Installation
 
@@ -70,14 +62,9 @@ Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed re
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
-## Security Vulnerabilities
-
-Please review [our security policy](../../security/policy) on how to report security vulnerabilities.
-
 ## Credits
 
 - [Elijah Cruz](https://github.com/elijahcruz12)
-- [All Contributors](../../contributors)
 
 ## License
 
