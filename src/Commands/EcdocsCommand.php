@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace ECDoc\Ecdocs\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class EcdocsCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'ecdocs';
 
     public $description = 'My command';
 

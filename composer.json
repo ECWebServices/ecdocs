@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "elijahcruz/ecdocs",
+    "description": "Simple API Documentation for Laravel",
     "keywords": [
-        ":vendor_name",
+        "elijahcruz",
         "laravel",
-        ":package_slug"
+        "ecdocs"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/elijahcruz/ecdocs",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Elijah Cruz",
+            "email": "ecwebservices@gmail.com",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "ECDoc\\Ecdocs\\": "src",
+            "ECDoc\\Ecdocs\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "ECDoc\\Ecdocs\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -61,10 +61,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "ECDoc\\Ecdocs\\EcdocsServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "Ecdocs": "ECDoc\\Ecdocs\\Facades\\Ecdocs"
             }
         }
     },

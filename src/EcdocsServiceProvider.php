@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace ECDoc\Ecdocs;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
+use ECDoc\Ecdocs\Commands\EcdocsCommand;
 
-class SkeletonServiceProvider extends PackageServiceProvider
+class EcdocsServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -16,10 +16,10 @@ class SkeletonServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('skeleton')
+            ->name('ecdocs')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_skeleton_table')
-            ->hasCommand(SkeletonCommand::class);
+            ->hasMigration('create_ecdocs_table')
+            ->hasCommand(EcdocsCommand::class);
     }
 }
