@@ -2,9 +2,9 @@
 
 namespace ECDoc\Ecdocs;
 
+use ECDoc\Ecdocs\Commands\EcdocsCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use ECDoc\Ecdocs\Commands\EcdocsCommand;
 
 class EcdocsServiceProvider extends PackageServiceProvider
 {

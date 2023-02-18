@@ -2,9 +2,9 @@
 
 namespace ECDoc\Ecdocs\Tests;
 
+use ECDoc\Ecdocs\EcdocsServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use ECDoc\Ecdocs\EcdocsServiceProvider;
 
 class TestCase extends Orchestra
 {
