@@ -22,7 +22,7 @@ return [
         /**
          * A description of your api. This is displayed at the homepage of the documentation ('/docs/api').
          */
-        'description' => 'This is my awesome api I created.'
+        'description' => 'This is my awesome api I created.',
     ],
 
     /**
@@ -30,9 +30,8 @@ return [
      *
      * If you remove the RestrictDocumentation middleware, then anyone (even unauthenticated users) can access the documentation.
      */
-    'middleware' =>
-        [
-            'web',
-            \ECDoc\Ecdocs\Http\Middleware\RestrictDocumentation::class
-        ]
+    'middleware' => [
+        'web',
+        \ECDoc\Ecdocs\Http\Middleware\RestrictDocumentation::class,
+    ],
 ];
